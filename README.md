@@ -2,6 +2,19 @@
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
+
+## Challenge completed by Francesco Caruso! 💯
+
+Thanks for checking out this front-end coding challenge.
+
+Access the resolution of the challenge: [https://todointerconectado.com/nftcard/](https://todointerconectado.com/nftcard/)
+
+
+## You can also visit my linkedin:
+
+[https://www.linkedin.com/in/franciscocarusso/](https://www.linkedin.com/in/franciscocarusso/)
+
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.

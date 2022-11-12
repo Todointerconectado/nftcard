@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    /* Primary */
+    --softBlue: rgb(139, 172, 218);
+    --cyan: rgb(0, 255, 247);
+
+    /* Neutral */
+    --veryDarkBlueMain: rgb(13, 25, 43);   /*(main BG)*/
+    --veryDarkBlueCard: rgb(20, 37, 61);   /*(card BG)*/
+    --veryDarkBlueLine: rgb(47, 65, 91);   /*(line)*/
+    --white: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------- beginning ---------------------- */
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    padding: 10px;
+    background: var(--veryDarkBlueMain);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        linear-gradient(
+            rgb(13 25 43 / .9),
+            rgb(13 25 43 / .95)),
+            url("../images/fondo.jpg")
+    ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+/* ---------------------- NFT --------------------- */
+
+.nft {
+    border-radius: 15px;
+    padding: 22px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    background: var(--veryDarkBlueCard);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+.nftHeaderFigure {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 280px;
+    height: 100%;
+    max-height: 280px;
+}
+.nftHeaderImg {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 280px;
+}
+
+.nftHeaderTitle {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+
+/* ---- Main del NFT ---- */
+.nftMain {
+    font-size: 16px;
+}
+.nftMainText {
+    padding-bottom: 20px;
+    opacity: .4;
+    font-weight: 300;
+}
+
+.nftMainData {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nftMainDataLeft {
+    color: var(--cyan);
+}
+.fa-ethereum {
+    padding-right: 5px;
+}
+
+
+.nftMainDataRight {
+    opacity: .4;
+}
+.fa-bell {
+padding-right: 5px;
+}
+
+/* ---- Footer del NFT ---- */
+.nftFooter {
+    padding-top: 15px;
+    border-top: 1px solid var(--veryDarkBlueLine);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.nftFooterImg {
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    width: 35px;
+}
+.nftFooterText {
+    font-size: 16px;
+}
+.nftFooterCreation {
+    padding-right: 5px;
+    opacity: .4;
+    font-weight: 300;
+}
+
+
+/* ---------------------- FOOTER ---------------------- */
+.footer {
+    font-size: 11px;
+    text-align: center;
+}
+.footer a {
+    color: hsl(228, 45%, 44%);
+}
