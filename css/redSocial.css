@@ -55,6 +55,7 @@
 }
 .containerContactsRedSocial a:hover {
     filter: drop-shadow(0 0 3px var(--atrubutionWhite));
+    -webkit-filter: drop-shadow(0 0 3px var(--atrubutionWhite));
 }
 
 .containerContactsImg {
@@ -66,8 +67,10 @@
 .arrow {
     border-radius: 50%;
     width: 32px;
-    transition: transform 1000ms ease;
+    transition: transform 1000ms ease,
+        -webkit-transform 300ms ease;
 }
 .arrow:hover {
     transform: scale(1.2);
+    -webkit-transform: scale(1.2);
 }
