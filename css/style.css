@@ -60,14 +60,8 @@
     justify-content: center;
     align-items: center;
     color: var(--white);
-    transform-origin: center;
-    transform-style: flat;
-    transition: transform 600ms ease, -webkit-transform 600ms ease;
 }
-.nft:hover {
-    transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-}
+
 .nftHeaderFigure {
     border-radius: 10px;
     overflow: hidden;
