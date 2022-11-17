@@ -4,7 +4,6 @@
     /* Primary */
     --softBlue: rgb(139, 172, 218);
     --cyan: rgb(0, 255, 247);
-
     /* Neutral */
     --veryDarkBlueMain: rgb(13, 25, 43);   /*(main BG)*/
     --veryDarkBlueCard: rgb(20, 37, 61);   /*(card BG)*/
@@ -61,6 +60,8 @@
     justify-content: center;
     align-items: center;
     color: var(--white);
+    transform-origin: center;
+    transform-style: flat;
     transition: transform 300ms ease,
         -webkit-transform 300ms ease;
 }
@@ -105,25 +106,24 @@
 }
 .nftMainDataLeft {
     color: var(--cyan);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .eth {
-    transition: transform 300ms ease,
-        -webkit-transform 300ms ease;
+    transform-origin: center;
+    transform-style: flat;
+    transition: transform 300ms ease;
 }
 .eth:hover {
     transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-}
-
-.nftMainDataLeft span {
-    padding-left: 5px;
 }
 
 .nftMainDataRight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     opacity: .4;
-}
-.fa-bell {
-padding-right: 5px;
 }
 
 /* ---- Footer del NFT ---- */
