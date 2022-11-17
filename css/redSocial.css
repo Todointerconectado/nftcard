@@ -37,12 +37,12 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    /* transition: background 300ms ease, color 300ms ease; */
+    transition: background 300ms ease, color 300ms ease;
 }
-/* .atrubution a:hover {
+.atrubution a:hover {
     background: var(--atrubutionHover);
     color: var(--atrubutionWhite);
-} */
+}
 
 /* ------- Navegacion ------- */
 .containerContacts {
@@ -57,13 +57,12 @@
     list-style: none;
 }
 
-/* .containerContactsRedSocial a {
-    transition: filter 300ms ease, -webkit-filter 300ms ease;
-} */
-/* .containerContactsRedSocial a:hover {
+.containerContactsRedSocial a {
+    transition: filter 300ms ease;
+}
+.containerContactsRedSocial a:hover {
     filter: drop-shadow(0 0 3px var(--atrubutionWhite));
-    -webkit-filter: drop-shadow(0 0 3px var(--atrubutionWhite));
-} */
+}
 
 .containerContactsImg {
     width: 32px;
@@ -74,9 +73,8 @@
 .arrow {
     border-radius: 50%;
     width: 32px;
-    /* transition: transform 1000ms ease, -webkit-transform 1000ms ease; */
+    transition: transform 1000ms ease;
 }
-/* .arrow:hover {
+.arrow:hover {
     transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-} */
+}
