@@ -109,15 +109,6 @@
     align-items: center;
     gap: 10px;
 }
-.eth {
-    transform-origin: center;
-    transform-style: flat;
-    /* transition: transform 300ms ease; */
-}
-/* .eth:hover {
-    transform: rotateY(180deg);
-} */
-
 .nftMainDataRight {
     display: flex;
     align-items: center;
