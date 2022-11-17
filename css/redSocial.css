@@ -26,6 +26,9 @@
     font-size: .8rem;
     font-weight: bold;
     letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 .atrubution a {
     border-radius: 5px;
@@ -34,7 +37,7 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
-
+    transition: background 300ms ease, color 300ms ease;
 }
 .atrubution a:hover {
     background: var(--atrubutionHover);
@@ -53,6 +56,10 @@
 .containerContactsRedSocial {
     list-style: none;
 }
+
+.containerContactsRedSocial a {
+    transition: filter 300ms ease, -webkit-filter 300ms ease;
+}
 .containerContactsRedSocial a:hover {
     filter: drop-shadow(0 0 3px var(--atrubutionWhite));
     -webkit-filter: drop-shadow(0 0 3px var(--atrubutionWhite));
@@ -67,8 +74,7 @@
 .arrow {
     border-radius: 50%;
     width: 32px;
-    transition: transform 1000ms ease,
-        -webkit-transform 300ms ease;
+    transition: transform 1000ms ease, -webkit-transform 1000ms ease;
 }
 .arrow:hover {
     transform: scale(1.2);

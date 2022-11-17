@@ -62,8 +62,7 @@
     color: var(--white);
     transform-origin: center;
     transform-style: flat;
-    transition: transform 300ms ease,
-        -webkit-transform 300ms ease;
+    transition: transform 600ms ease, -webkit-transform 600ms ease;
 }
 .nft:hover {
     transform: scale(1.05);
@@ -113,11 +112,11 @@
 .eth {
     transform-origin: center;
     transform-style: flat;
-    transition: transform 300ms ease;
+    /* transition: transform 300ms ease; */
 }
-.eth:hover {
+/* .eth:hover {
     transform: rotateY(180deg);
-}
+} */
 
 .nftMainDataRight {
     display: flex;
